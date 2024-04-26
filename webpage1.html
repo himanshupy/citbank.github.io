@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .ani {
+            text-align: center;
+            border-radius: 18px;
+            border: solid teal 0.5px;
+            width: 150px;
+            height: 40px;
+            margin-left: 22%;
+            padding-top: 7px;
+        }
+
+        .ani:hover {
+            background-color: rgb(218, 237, 237);
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            color: rgb(180, 220, 220);
+        }
+        .logo:hover{
+            color: white;
+        }
+        .whi{
+            color: rgb(180, 220, 220);
+        }
+        .whi:hover{
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(216, 212, 212); ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 40px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: teal;">Personel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: teal;">buisness</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: teal;">Commercial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: teal;">About us</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- first navbar above -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: sticky; top: 0px; z-index: +999999;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="margin-left: 50px;"><img
+                    src="images/Screenshot_2023-07-27_173615-removebg-preview.png"
+                    style="height: 70px; width: auto;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="font-weight: 500; color: teal; font-size: 22px; margin-left: 20px;">
+                            Bank
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="font-weight: 500; color: teal; font-size: 22px; margin-left: 20px;">
+                            Borrow
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="font-weight: 500; color: teal; font-size: 22px; margin-left: 20px;">
+                            Learn
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="font-weight: 500; color: teal; font-size: 22px; margin-left: 20px;">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-success" type="submit"
+                    style="border-radius: 18px; margin-right: 20px; background-color: rgb(185, 223, 132); color: teal; font-weight: 500; border: none;">Open
+                    Account</button>
+                <button class="btn btn-outline-success" type="submit"
+                    style="border-radius: 18px; margin-right: 60px; border: none;background-color: rgb(216, 212, 212); color: teal; font-weight: 500;">Sign
+                    in</button>
+            </div>
+        </div>
+    </nav>
+    <section style="height: 500px; width: 100%;">
+        <img src="images/secweb1.png" style="height: 370px; width: 100%;">
+        
+    </section>
+    
+   
+    <section class="container">
+        <div class="row">
+            <div class="col-md-7"
+                style="height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: left; ">
+                <div style="color: teal; margin-right: 67%; font-size: 26px; font-weight: 500; margin-bottom: 8px;">Saving
+                </div>
+                <div style="font-weight: 300; opacity: 90%; font-size: 18px;">Learn about the rates, features and benefits of our savings accounts.</div>
+                <div class="ani" style="margin-top: 2%;margin-left:0px;">
+                    Explore Savings</div>
+            </div>
+            <div class="col-md-5" style="height: 300px; margin-top: 70px;">
+                <img src="images/we1card.png" style="height: 100%; width: 100%;">
+
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-5" style="height: 300px; margin-top: 70px;">
+                <img src="images/we2card.png " style="height: 100%; width: 100%;">
+
+            </div>
+            <div class="col-md-7"
+                style="height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <div style="color: teal; margin-right: 80%; font-size: 26px; font-weight: 500; margin-bottom: 8px;">eChecking
+                </div>
+                <div style="font-weight: 300; opacity: 90%; font-size: 18px; margin-left: -100px;">Discover the ease and convenience of an interest-bearing eChecking account.
+
+                </div>
+                <div class="ani" style="margin-right: 101%;margin-top: 2%;">
+                    Get started</div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-7"
+                style="height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: left;">
+                <div style="color: teal; margin-right: 67%; font-size: 26px; font-weight: 500; margin-bottom: 8px;">
+                    Money Market
+                </div>
+                <div style="font-weight: 300; opacity: 90%; font-size: 18px;">Learn why a Money Market account is a smart choice when saving for emergencies, a new home or a vacation.</div>
+                <div class="ani" style="margin-left: 0px; margin-top: 2%;">
+                    See More</div>
+            </div>
+            <div class="col-md-5" style="height: 300px; margin-top: 70px;">
+                <img src="images/we3card.png" style="height: 100%; width: 100%;">
+
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-5" style="height: 300px; margin-top: 70px;">
+                <img src="images/we4card.png" style="height: 100%; width: 100%;">
+
+            </div>
+            <div class="col-md-7"
+                style="height: 400px; display: flex; flex-direction: column; justify-content: center; align-items: right;">
+                <div style="color: teal; margin-right: 67%; font-size: 26px; font-weight: 500; margin-bottom: 8px;">
+                    CDs
+                </div>
+                <div style="font-weight: 300; opacity: 90%; font-size: 18px;">Find out all the terms, rates and benefits of our Term, No-Penalty and Jumbo CDs.</div>
+                <div class="ani" style="margin-left: 0px; margin-top: 2%;">
+                    Discover CDs</div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section style="height: 70px;">
+    </section>
+    <section style="background-color: rgb(216, 212, 212);">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-4" style="height: 300px; margin-top: 100px;">
+                    <img src="images/teximg.png"
+                        style="display: block; margin-left: auto; margin-right: auto; width: 270px;">
+                </div>
+                <div class="col-md-8" style="margin-top: 90px;">
+                    <p style="color: teal; font-size: 30px;">Your money is safe and sound.</p>
+                    <p style="text-align: left;">CIT Bank is a division of First-Citizens Bank & Trust Company, a member
+                        of the Federal Deposit Insurance Corporation (FDIC), which means your deposit accounts are
+                        insured up to $250,000 per depositor, for each account ownership category. Deposits held under
+                        the names First Citizens Bank & Trust Company and CIT Bank are not separately insured but must
+                        be combined for purposes of determining whether a depositor has exceeded the federal insurance
+                        deposit limit.</p>
+                    <p class="ani" style="margin-left: 0px;">Learn more</p>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <section style="background-color: teal;">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ol>
+                        <li
+                            style="color: rgb(180, 220, 220); padding-top: 40px; font-size: 15px; font-weight: lighter;">
+                            APY — Annual Percentage Yield is accurate as of July 27, 2023. $1,000 minimum deposit is
+                            required to open the account. A penalty may be imposed for early withdrawal of principal,
+                            and any early withdrawal (principal or interest) will reduce earnings.</li>
+                        <li style="color: rgb(180, 220, 220); margin-top: 22px; font-size: 15px; font-weight: lighter;">
+                            APY — Annual Percentage Yield is accurate as of July 27, 2023. Interest Rates for the
+                            Savings Connect Account are variable and may change at any time without notice. The minimum
+                            to open a Savings Connect account is $100. Fees could reduce earnings on the account.</li>
+                    </ol>
+                </div>
+
+            </div>
+
+        </section>
+    </section>
+    <section style="height: 70px; background-color: teal;"></section>
+    <section style="background-color: teal;">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-6" style="text-align: left;">
+                    <img src="images/whitelog.png" style="display: block; width: 250px;">
+                </div>
+                <div class="col-md-6" style="text-align: right; padding-top: 20px;">
+                    <a href="#" class="logo" style="margin-right: 20px; text-decoration: none;">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="logo" style="margin-right: 20px; text-decoration: none;">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="logo" style="margin-right: 20px; text-decoration: none;">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="logo" style="margin-right: 20px; text-decoration: none;">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="logo">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </section>
+    <section style="height: 70px; background-color: teal;"></section>
+    <section style="background-color: teal;">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <ul style="list-style-type: none;">
+                        <h4 style="font-weight: 500; color: white;">Home</h4>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul style="list-style-type: none;">
+                        <h4 style="font-weight: 650; color: white;">Personel</h4>
+                        <li class="whi">Bank</li>
+                        <li class="whi">Borrow</li>
+                        <li class="whi">Learn</li>
+                        <li class="whi">Resources</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul style="list-style-type: none;">
+                        <h4 style="font-weight: 650; color: white;">Buisness</h4>
+                        <li class="whi">Solution</li>
+                        <li class="whi">Industry</li>
+                        <li class="whi">Resources</li>
+                     
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul style="list-style-type: none;">
+                        <h4 style="font-weight: 650; color: white;">Commercial</h4>
+                        <li class="whi">Solution</li>
+                        <li class="whi">Industry</li>
+                        <li class="whi">Resources</li>
+                     
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul style="list-style-type: none;">
+                        <h4 style="font-weight: 650; color: white;">About Us</h4>
+                        <li class="whi">Us</li>
+                        <li class="whi">News</li>
+                        <li class="whi">Investor Relations</li>
+                        <li class="whi">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <ul style="list-style-type: none;">
+                        <h4 style="font-weight: 650; color: white;">Careers</h4>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section style="height: 70px; background-color: teal;"></section>
+    <section style="background-color: teal;">
+        <section class="container">
+            <div class="column">
+                <div class="col-md-2">
+                    <img src="images/homem.png">
+                </div>
+                <div class="col-md-10" style="font-size: 14px; color: rgb(180, 220, 220); font-weight: 100; margin-top: 7px; padding-left: 10px;">
+                    ©2023 First-Citizens Bank & Trust Company. All rights reserved. CIT and the CIT logo are registered trademarks of First Citizens BancShares, Inc.
+                </div>
+            </div>
+        </section>
+    </section>
+    <section style="height: 150px; background-color: teal;"></section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
